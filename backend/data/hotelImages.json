@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1739952150848,
+    "filename": "1739952150835-432311765.jpg",
+    "path": "/uploads/hotels/1739952150835-432311765.jpg",
+    "title": "hotel khumai",
+    "description": "Nestled in the mountains, our hotel offers stunning views, cozy stays, and warm hospitality. Perfect for relaxation or adventure, it's your ideal escape into nature.",
+    "location": "khumai daada, Nepal",
+    "price": "45"
+  },
+  {
+    "id": 1739953503670,
+    "filename": "1739953503646-576550099-mountain2.jpg",
+    "path": "/uploads/hotels/1739953503646-576550099-mountain2.jpg",
+    "title": "Hotel xyz",
+    "description": "Nestled in the mountains, our hotel offers stunning views, cozy stays, and warm hospitality. Perfect for relaxation or adventure, it's your ideal escape into nature.",
+    "location": "Mardi Himal, Nepal",
+    "price": "50"
+  },
+  {
+    "id": 1739958499044,
+    "filename": "1739958499034-492571303-mountain.jpg",
+    "path": "/uploads/hotels/1739958499034-492571303-mountain.jpg",
+    "title": "Hotel sunshine",
+    "description": "Perched on scenic hills, our hotel offers breathtaking views, warm sunshine, and a peaceful retreat. Enjoy cozy stays, fresh air, and unmatched hospitality for a truly relaxing escape.",
+    "location": "Bhairab daada, Hetauda, Nepal",
+    "price": "100"
+  }
+]

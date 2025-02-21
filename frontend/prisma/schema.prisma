@@ -1,0 +1,33 @@
+// This is your Prisma schema file
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Hotel {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  location    String
+  price       String
+  path        String
+  reviews     Review[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Review {
+  id        Int      @id @default(autoincrement())
+  content   String
+  rating    Int
+  userId    String
+  userName  String
+  hotel     Hotel    @relation(fields: [hotelId], references: [id])
+  hotelId   Int
+  createdAt DateTime @default(now())
+}
